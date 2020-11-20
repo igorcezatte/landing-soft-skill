@@ -36,7 +36,6 @@ export const Card = styled.div`
     margin-left: 3rem;
     margin-right: 3rem;
 
-
     align-items: center;
     justify-content: center;
 
@@ -57,6 +56,10 @@ export const Card = styled.div`
         margin-top: 0rem;
         font-size: 20px;
         max-width: 40vw;
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
     }
 
 `;
